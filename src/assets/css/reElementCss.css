@@ -1,0 +1,25 @@
+.el-slider__button {
+    width: 12px;
+    height: 12px;
+}
+
+.el-dialog__wrapper {
+    left: 0;
+    right: 0;
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.el-dialog {
+    position: absolute;
+    right: 0;
+    bottom: 70px;
+    margin: 0;
+}
+
+.el-header .el-input__inner {
+    border-radius: 20px;
+    background: #a61132;
+    border-color: #b82b5d;
+    color: #ddd;
+}

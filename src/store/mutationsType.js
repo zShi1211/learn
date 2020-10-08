@@ -1,0 +1,3 @@
+export const PLAYER_LIST = 'PLAYER_LIST'
+export const NOW_PLAYER_MUSIC = 'NOW_PLAYER_MUSIC'
+export const  CHANGE_PAUSE = 'CHANGE_PAUSE'
