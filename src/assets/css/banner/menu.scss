@@ -1,0 +1,52 @@
+@import "../common.scss";
+.menu {
+    background: #fff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+    > dl {
+        padding: 20px 0;
+        height: 442px;
+        border: 1px solid #ddd;
+
+        dt {
+            margin-bottom: 30px;
+            color: #222222;
+            font-weight: 700;
+            padding-left: 20px;
+        }
+        dd {
+            color: #646464;
+            font-size: 14px;
+            padding: 6px 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        dd:hover {
+            background: rgba(255, 150, 0, 0.08);
+            color: #222222;
+        }
+    }
+
+    .detaiList{
+        position: absolute;
+        left: 100%;
+        top: 60px;
+        background: #fff;
+        width: 400px;
+        height: 384px;
+        padding: 20px;
+        z-index: 998;
+        .title{
+            color: #222;
+            margin-bottom: 10px;
+        }
+        a{
+            font-size: 13px;
+            color: #646464;
+            padding: 4px;
+        }
+        a:hover{
+            color: $main-color;
+        }
+    }
+}

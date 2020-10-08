@@ -1,0 +1,32 @@
+.wrapper {
+    position: relative;
+    margin-right: 10px;
+
+    &:hover dl {
+        display: block;
+    }
+    .title {
+        cursor: pointer;
+    }
+    dl {
+        display: none;
+        width: 200px;
+        font-size: 14px;
+        position: absolute;
+        background: #fff;
+        padding: 10px;
+        z-index: 100;
+        color: #999;
+        dt {
+            color: #666;
+            margin-bottom: 15px;
+        }
+        box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
+        dd {
+            padding: 3px 0px;
+            cursor: pointer;
+            display: inline-block;
+            width: 100px;
+        }
+    }
+}

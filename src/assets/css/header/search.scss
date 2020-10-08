@@ -1,0 +1,65 @@
+@import "../common.scss";
+.search {
+    height: 150px;
+    background: #fff;
+    box-shadow: 0 1px 15px -10px rgba(0, 0, 0, 0.5);
+    .c {
+        @extend .center;
+    }
+    .logo {
+        img {
+            width: 124px;
+            margin-top: 20px;
+        }
+    }
+    .search-area {
+        width: 500px;
+        margin-top: 25px;
+        position: relative;
+        input {
+            border-color: red !important;
+        }
+        button {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 80px;
+            background: $btn-color;
+            border-top-left-radius: 0px;
+            border-bottom-left-radius: 0px;
+        }
+        .search-list {
+            width: 418px;
+            border: 1px solid #dcdfe6;
+            border-radius: 0px 0px 4px 4px / 0px 0px 4px 4px;
+            font-size: 12px;
+            position: absolute;
+            background: #fff;
+            z-index: 999;
+            dt {
+                padding: 10px;
+                font-weight: 700;
+                color: #999;
+            }
+            dd {
+                padding: 0px 10px 10px 10px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                span {
+                    cursor: pointer;
+                    margin: 0px 5px;
+                }
+            }
+            ul {
+                li {
+                    padding: 5px;
+                    cursor: pointer;
+                    &:hover{
+                        background: #eee;
+                    }
+                }
+            }
+        }
+    }
+}

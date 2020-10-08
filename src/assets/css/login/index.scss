@@ -1,0 +1,115 @@
+@import "../common.scss";
+.c {
+    width: 1000px;
+    margin: 0 auto;
+    .content {
+        .logo {
+            height: 150px;
+            display: flex;
+            align-items: center;
+            a {
+                display: block;
+                width: 195px;
+                height: 71px;
+                background: url(//s0.meituan.net/bs/fe-web-meituan/fa5f0f0/img/logo.png);
+            }
+        }
+        .login {
+            padding: 0px 100px;
+            p {
+                margin-bottom: 10px;
+            }
+            .error-msg {
+                background-color: #fff6db;
+                border: 1px solid #f5d8a7;
+                padding: 10px 20px;
+                font-size: 14px;
+                visibility: hidden;
+                color: #666;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                &.active {
+                    visibility: visible;
+                }
+            }
+            .title {
+                display: flex;
+                justify-content: space-between;
+                font-size: 14px;
+                color: #888;
+                .mode {
+                    cursor: pointer;
+                }
+            }
+            .forget-pwd {
+                font-size: 13px;
+                color: #eecc91;
+                text-align: right;
+                cursor: pointer;
+            }
+            .button {
+                button {
+                    width: 100%;
+                    background: linear-gradient(135deg, #ffd000 0, #ffbd00 100%);
+                    font-weight: 700;
+                }
+            }
+            .register {
+                font-size: 14px;
+                margin-bottom: 20px;
+                a {
+                    color: #eecc91;
+                }
+            }
+            .other-login {
+                padding: 10px 10px;
+                position: relative;
+                border-top: 1px solid #ddd;
+                text-align: center;
+                font-size: 14px;
+                p {
+                    position: absolute;
+                    background: #f8f8f8;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    top: -9px;
+                    padding: 0px 10px;
+                }
+                .qq,
+                .weibo {
+                    display: inline-block;
+                    width: 18px;
+                    height: 18px;
+                    background-image: url(//s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/sp-normal.2ee5c09.png);
+                    margin: 10px 10px 0 0;
+                }
+                .qq {
+                    background-position: -1250px -509px;
+                }
+                .weibo {
+                    background-position: -1250px -599px;
+                }
+            }
+        }
+    }
+    .footer {
+        font-size: 14px;
+        color: #888;
+        ul {
+            display: flex;
+            padding: 20px 0px;
+            margin: 10px 0px;
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            li {
+                margin-right: 10px;
+                padding-right: 10px;
+                &:not(:last-of-type) {
+                    border-right: 1px solid #bbb;
+                }
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+@import "../common.scss";
+.filter{
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.el-row {
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    span {
+        padding: 5px;
+        text-align: center;
+        box-sizing: initial;
+        margin-right: 30px;
+    }
+    .all {
+        background: $main-color;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    ul {
+        display: flex;
+    }
+    
+}

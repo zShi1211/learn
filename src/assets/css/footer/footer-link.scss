@@ -1,0 +1,22 @@
+@import "../common.scss";
+.footer-link {
+    .c {
+        @extend .center;
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        border-top: 1px solid #ddd;
+        dl{
+            dt{
+                margin-bottom: 8px;
+            }
+            dd{
+                font-size: 13px;
+                padding: 5px 3px;
+                a:hover{
+                    color: $main-color;
+                }
+            }
+        }
+    }
+}

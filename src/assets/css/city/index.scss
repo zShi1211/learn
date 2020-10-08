@@ -1,0 +1,11 @@
+@import "../common.scss";
+
+.c {
+    @extend .center;
+    padding: 20px;
+}
+
+.item {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0px;
+}

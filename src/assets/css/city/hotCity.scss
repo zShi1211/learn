@@ -1,0 +1,8 @@
+@import "../common.scss";
+.itemCity {
+    margin-left: 10px;
+    cursor: pointer;
+    &:hover{
+        color: $main-color;
+    }
+}
