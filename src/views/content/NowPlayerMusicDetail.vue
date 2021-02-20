@@ -144,7 +144,7 @@ export default {
   height: 500px;
 }
 .bg {
-  background-size: 90% 100%;
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   filter: blur(70px);

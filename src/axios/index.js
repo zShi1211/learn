@@ -1,9 +1,7 @@
 import axios from 'axios'
 
-axios.interceptors.request.use(request => {
-    request.url = `/api${request.url}`
-    return request
-})
+axios.defaults.baseURL = process.env.NODE_ENV === 'development' ? 'http://localhost:1111/data' : 'http://proxy.shiisme.top/data'
+
 
 axios.interceptors.response.use(resp => {
     return resp.data

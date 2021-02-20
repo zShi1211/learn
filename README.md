@@ -1,24 +1,13 @@
-# music
+# 网易云音乐
+> vue全家桶 + vue-cli + element-ui
 
-## Project setup
-```
-npm install
-```
+**可以使用功能**
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- 音乐搜索
+- 推荐歌单
+- 播放控件
+- 当前播放歌曲详情
 
-### Compiles and minifies for production
-```
-npm run build
-```
+**配图一张，标记可使用功能**
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+<img src="http://shiisme.top/upload/file.1613785872977.png" />

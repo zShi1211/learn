@@ -1,4 +1,5 @@
 module.exports = {
+    publicPath: process.env.NODE_ENV === 'development' ? '/' : '/music-cp',
     configureWebpack: {
         resolve: {
             alias: {
@@ -9,14 +10,14 @@ module.exports = {
     },
     devServer: {
         proxy: {//解决跨域问题
-            '/api': {
+            '/data': {
                 // 此处的写法，目的是为了 将 /api 替换成 https://autumnfish.cn/
                 target: 'https://autumnfish.cn/',
                 // 允许跨域
                 changeOrigin: true,
                 ws: true,
                 pathRewrite: {
-                    '^/api': ''
+                    '^/data': ''
                 }
             }
         }
