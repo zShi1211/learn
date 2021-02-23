@@ -10,4 +10,4 @@
 
 **配图一张，标记可使用功能**
 
-<img src="http://shiisme.top/upload/file.1613785872977.png" />
+![](http://shiisme.top/upload/file.1614088025616.png)
